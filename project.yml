@@ -1,0 +1,9 @@
+bucket:
+  strip: 1
+
+packages:
+  - name: myfirstapp
+    actions:
+      - name: helloworld
+        environment:
+            NODE_ENV: ${NODE_ENV}
